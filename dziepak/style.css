@@ -1,0 +1,530 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-bottom: 2px solid rgb(231, 227, 227);
+
+}
+
+.header h1 {
+    color: aqua;
+   
+    font: normal normal 300 32px/37px Raleway;
+letter-spacing: 0px;
+color: #08A6E4;
+opacity: 1;
+
+
+
+
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    font: normal normal bold 11px/15px Open Sans;
+letter-spacing: 3.28px;
+color: #000000;
+opacity: 1;
+
+}
+
+ul {
+
+    display: flex;
+    gap: 45px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav a:hover {
+    color: black;
+    border-bottom: 2px solid rgb(23, 109, 207);
+}
+
+.pow {
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+.pow1{
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.pow h1 {
+
+    font-size: 250%;
+    font: normal normal normal 49px/57px Raleway;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+}
+
+.pow img {
+    width: 100%;
+}
+
+.pow p {
+    padding-top: 10px;
+}
+
+.przycisk {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.przycisk .btn {
+    padding: 12px 120px;
+    background-color: rgb(41, 93, 161);
+    color: white;
+    border-radius: 50px;
+    font: normal normal bold 16px/22px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.stat h2 {
+    text-align: center;
+    padding-top: 30px;
+    font: normal normal normal 36px/42px Raleway;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.kol {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.let {
+    font: normal normal 800 20px/24px Raleway;
+letter-spacing: 6px;
+color: #000000;
+opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.let1 {
+    color: lightgrey;
+    font: normal normal normal 17px/20px Raleway;
+letter-spacing: 0px;
+color: #A5A5A5;
+opacity: 1;
+}
+
+.kol1 {
+    position: relative;
+}
+
+.kol2 {
+    position: relative;
+}
+
+.kol3 {
+    position: relative;
+}
+
+.circle1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    top: 2%;
+    z-index: -1;
+}
+
+.circle2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3DB3D6;
+    z-index: -1;
+    top: -0.5rem;
+    right: 77px;
+}
+
+.circle3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    top: 2%;
+    z-index: -1;
+}
+
+.benefits{
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0%;
+    margin-bottom: 3%;
+}
+
+.benefits-content-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.benefits-content{
+    width: 60%;
+    background-color: #FFFFFF;
+    display: flex;
+    margin: 2% 0%;
+    height: 300px;
+}
+.benefits-text{
+    width: 50%;
+    padding: 5% 2%;
+}
+.benefits-h1{
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.benefits-p{
+    margin: 5% 0%;
+    font: normal normal normal 16px/22px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.benefits-line{
+    height: 5px;
+    width: 80%;
+}
+.benefits-image-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits-shape1{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    rotate: 45deg;
+}
+.benefits-image1{
+    rotate: -45deg;
+    width: 200%;
+    position: relative;
+    top: 50%;
+    right: 50%;
+}
+.benefits-shape2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.benefits-image2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefits-image3{
+    height: 100%;
+}
+.benefits-shape3{
+    height: 100%;
+    width: calc(height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: #FB3B64;
+}
+.blue{
+    background-color: #08A6E4;
+}
+.green{
+    background-color: #55DFB4;
+}
+.price{
+    height:25%;
+}
+.price-main-h1{
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 1% 0%;
+
+    margin: 5rem;
+}
+.price-all{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.price-col{
+    width: 15%;
+    height: 90%;
+    border-radius: 20px;
+}
+.price-h1{
+    text-align: center;
+    margin: 20px;
+    font: normal normal bold 21px/1px Raleway;
+    letter-spacing: 0px;
+    color: #13253B;
+    opacity: 1;
+    
+}
+
+.price-number{
+    text-align: center;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0px;
+    color: #07ACE6;
+    opacity: 1;
+    margin: 55px;
+}
+
+.price-ul{
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 50px;
+    font: normal normal normal 14px/1px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.red-p{
+    color: red;
+    margin-bottom: 4rem;
+}
+.blue-p{
+    color: rgb(61, 155, 187);
+}
+.green-p{
+    color: lightgreen;
+}
+.price-limited{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-size: small;
+    font-weight: 800;
+}
+
+.basic{
+    border: 1px solid red;
+    position: relative;
+}
+.prof{
+    border: 1px solid  rgb(61, 155, 187);
+    position: relative;
+    width: 20%;
+    scale: 1.1;
+}
+.prem{
+    border: 1px solid lightgreen;
+    position: relative;
+}
+.basic .pricing-begin{
+    position: absolute;
+    bottom: -1.5rem;
+    text-decoration: none;
+    background: red 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    padding: 0.25rem 3rem;
+    color: white;
+    text-align: left;
+    letter-spacing: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal normal bold 13px/41px Open Sans;
+}
+.prof .pricing-begin{
+    position: absolute;
+    bottom: -1.5rem;
+    text-decoration: none;
+    background: rgb(61, 155, 187) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    padding: 0.25rem 3rem;
+    color: white;
+    text-align: left;
+    letter-spacing: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal normal bold 13px/41px Open Sans;
+}
+.prem .pricing-begin{
+    position: absolute;
+    bottom: -1.5rem;
+    text-decoration: none;
+    background: lightgreen 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    padding: 0.25rem 3rem;
+    color: white;
+    text-align: left;
+    letter-spacing: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: normal normal bold 13px/41px Open Sans;
+}
+.kon{
+    display: flex;
+    height: 500px;
+    margin-top: 150px;
+}
+.kon h1{
+    
+    font: normal normal normal 49px/57px Raleway;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.leave{
+    margin-top: 15px;
+    font: normal normal normal 16px/22px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mail p{
+    font: normal normal 600 16px/22px Open Sans;
+letter-spacing: 0px;
+color: #A5A5A5;
+opacity: 1;
+}
+.phone p{
+    font: normal normal 600 16px/22px Open Sans;
+letter-spacing: 0px;
+color: #A5A5A5;
+opacity: 1;
+}
+.lewa{
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.prawa{
+    width: 50%;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.phone-mail{
+    display: flex;
+    gap: 1rem;
+    color: gray;
+    margin-top: 25px;
+}
+.phone, .mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.prawa h1{
+    margin-top: 10px;
+    font: normal normal bold 11px/15px Open Sans;
+letter-spacing: 3.28px;
+color: #08A6E4;
+opacity: 1
+   
+}
+.prawa input{
+    margin-top: 10px;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+.box input{
+  
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #95989A;
+border-radius: 4px;
+opacity: 1;
+}
+.box a{
+    margin-left: 25px;
+    margin-top: -15px;
+    
+    font: normal normal normal 12px/17px Open Sans;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.btn2{
+    padding: 20px 100px;
+    background-color: #00ABFF;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.stopka{
+    height: 50px;
+    border-top: solid 1px lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.stopka1{
+    font: normal normal 300 26px/30px Raleway;
+letter-spacing: 0px;
+color: #08A6E4;
+opacity: 1;
+margin-left: 40px;
+}
+.znaczki{
+    margin-right: 40px;
+}
+.yes{
+    color: rgb(0, 255, 0);
+}
+.no{
+    color: red;
+}
